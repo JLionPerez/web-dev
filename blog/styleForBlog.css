@@ -1,0 +1,48 @@
+body {
+    background: rgb(255, 241, 246);
+    /*I know you're gonna hate this font, but I love it :3 sowwy*/
+    font-family: 'Indie Flower', cursive, sans-serif;
+    display: flex;
+    flex-flow: column;
+}
+
+a{
+    color: rgb(73, 2, 131);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(153, 79, 195);
+}
+
+#main-link{
+    display: flex;
+    color: rgb(255, 37, 113);
+    font-size: 34px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.main-title{
+    display: flex;
+    color: rgb(255, 0, 89);
+    font-size: 64px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.entry-title{
+    color: rgb(255, 0, 89);
+    font-size: 40px;
+}
+
+.date{
+    color: rgb(233, 0, 81);
+    font-size: 35px;
+}
+
+.entries{
+    margin: 20px; 
+    color: rgb(255, 37, 113);
+    font-size: 30px;
+}
